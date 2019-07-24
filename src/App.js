@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import GridMDC from "./components/GridMDC";
 import PaperMDC from "./components/PaperMDC";
 import CharCard from "./components/CharCard";
