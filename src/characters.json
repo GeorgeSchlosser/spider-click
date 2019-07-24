@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "name": "Spider-Man 2099",
+        "image": "../imgs/2099.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Scarlet Spider",
+        "image": "../imgs/Ben.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Spider-Gwen",
+        "image": "../imgs/Gwen.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Iron Spider",
+        "image": "../imgs/Iron.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Scarlet Spider II",
+        "image": "../imgs/Kaine.png"
+    },
+    {
+        "id": 6,
+        "name": "Spider-Man",
+        "image": "../imgs/PeterParker.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Spider-Man (PS4)",
+        "image": "../imgs/PS4.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Silk",
+        "image": "../imgs/Silk.jpg"
+    },
+    {
+        "id": 9,
+        "name": "SPdr",
+        "image": "../imgs/SPdr.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Superior Spider-Man",
+        "image": "../imgs/Superior.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Spider-Man (Black Suit)",
+        "image": "../imgs/Symbiote.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Ultimate Spider-Man",
+        "image": "../imgs/Ultimate.jpg"
+    }
+
+]
