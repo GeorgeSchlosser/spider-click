@@ -164,7 +164,7 @@ class App extends Component {
       return elem === id && true;
     });
   }
-  // Return the index of where the first null is found
+  // Return the index of where the first null(empty space in clicked array) is found
   returnFirstNull = () => {
     return this.state.clicked.indexOf(false);
   }
@@ -210,6 +210,8 @@ class App extends Component {
       // Reset the counters...
       this.emptyClicked();
       this.resetScoreZero();
+      // reshuffle
+      this.shuffle();
     }
     else {
       // Not already clicked...
