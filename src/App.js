@@ -241,7 +241,7 @@ class App extends Component {
     return (
       <>
         <AppBar position="fixed" color="secondary">
-          <nav className="navbar navbar-default">
+          <nav className="navbar navbar-default myNavColor">
             <div className="container-fluid">
               <div className="navbar-header">
                 <Typography variant="h4" color="primary" className="navbar-brand">
