@@ -135,6 +135,7 @@ import Typography from '@material-ui/core/Typography';
 import "./app.css";
 import characters from "./characters.json";
 import Row from "./components/row/Row";
+import BottomNavMDC from "./components/BottomNavMDC";
 
 class App extends Component {
   constructor(props) {
@@ -246,17 +247,15 @@ class App extends Component {
           <nav className="navbar navbar-default myNavColor">
             <div className="container-fluid">
               <div className="navbar-header">
-                <Typography variant="h4" color="primary" className="navbar-brand">
+                {/* <Typography variant="h4"  className="navbar-brand whiteText impactFont">
                   Spider-Click
-                </Typography>
+                </Typography> */}
+                <h2 className="whiteText impactFont">SPIDER-CLICK</h2>
               </div>
 
-              <ul className="nav navbar-nav">
+              <ul className="nav navbar-nav whiteText">
                 <li>
-                  Score: {this.state.score}
-                </li>
-                <li>
-                  Best: {this.state.topScore}
+                  <h4>Current Score: {this.state.score} || High Score: {this.state.topScore}</h4>
                 </li>
               </ul>
             </div>
@@ -285,6 +284,10 @@ class App extends Component {
             }
           </div>
         </div>
+        <BottomNavMDC style={{ background: "#C0000B", marginTop: "17.5px", paddingTop: "15px", borderTop: "2.5px solid slategray" }}>
+          <a href="https://github.com/GeorgeSchlosser/spider-click" target="_blank" rel="noopener noreferrer" className="link" alt="clicky-game-github-link"><i className="fa fa-github fa-2x"></i></a>
+        </BottomNavMDC>
+
       </>
     );
   }
