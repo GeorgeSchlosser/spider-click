@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/spider-click/static/css/main.fbc595d7.chunk.css",
+    "main.js": "/spider-click/static/js/main.3da0c4e9.chunk.js",
+    "main.js.map": "/spider-click/static/js/main.3da0c4e9.chunk.js.map",
+    "runtime~main.js": "/spider-click/static/js/runtime~main.14511575.js",
+    "runtime~main.js.map": "/spider-click/static/js/runtime~main.14511575.js.map",
+    "static/js/2.55060c2c.chunk.js": "/spider-click/static/js/2.55060c2c.chunk.js",
+    "static/js/2.55060c2c.chunk.js.map": "/spider-click/static/js/2.55060c2c.chunk.js.map",
+    "index.html": "/spider-click/index.html",
+    "precache-manifest.825d512124293bb0aa3866dc6af6e3b8.js": "/spider-click/precache-manifest.825d512124293bb0aa3866dc6af6e3b8.js",
+    "service-worker.js": "/spider-click/service-worker.js",
+    "static/css/main.fbc595d7.chunk.css.map": "/spider-click/static/css/main.fbc595d7.chunk.css.map"
+  }
+}
