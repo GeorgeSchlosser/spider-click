@@ -1,1 +1,1 @@
-export { default } from "./BottomNavMDC";
+export { default } from "./BottomBar";
