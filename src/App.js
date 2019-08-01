@@ -3,7 +3,7 @@ import AppBar from '@material-ui/core/AppBar';
 import "./app.css";
 import characters from "./characters.json";
 import Row from "./components/row/Row";
-import BottomNavMDC from "./components/BottomBar";
+import BottomNav from "./components/BottomBar";
 
 class App extends Component {
   constructor(props) {
@@ -152,9 +152,9 @@ class App extends Component {
             }
           </div>
         </div>
-        <BottomNavMDC style={{ background: "#C0000B", marginTop: "17.5px", paddingTop: "15px", borderTop: "2.5px solid slategray" }}>
+        <BottomNav style={{ background: "#C0000B", marginTop: "17.5px", paddingTop: "15px", borderTop: "2.5px solid slategray" }}>
           <a href="https://github.com/GeorgeSchlosser/spider-click" target="_blank" rel="noopener noreferrer" className="link" alt="clicky-game-github-link"><i className="fa fa-github fa-2x"></i></a>
-        </BottomNavMDC>
+        </BottomNav>
 
       </>
     );
